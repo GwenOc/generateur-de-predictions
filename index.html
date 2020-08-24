@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Generateur de citations</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		<div class="boite_titre">
+		<h1 class="titre">Générateur de prédictions</h1>
+	</div>
+		<div id="container">
+			<p>
+				<label>Choisis le type de prédictions</label>
+			</p>
+			<p>
+				<input type="radio" name="type" value="general">
+				<label for="general">Prédictions générales</label>
+				<input type="radio" name="type" value="personnel">
+				<label for="personnel">Prédictions personelles</label>
+			</p>
+			
+			<p>
+				<label>Nombre de prédiction(s) à générer</label>
+			</p>
+			<p>			
+				<input type="radio" name="number" value="1">
+				<label>1</label>
+				<input type="radio" name="number" value="2">
+				<label>2</label>	
+				<input type="radio" name="number" value="3">
+				<label>3</label>	
+				<input type="radio" name="number" value="4">
+				<label>4</label>	
+				<input type="radio" name="number" value="5">
+				<label>5</label>						
+			</p>
+			
+
+			<button id="genere" onclick="display()">Générer</button>
+		</div>
+	
+	<!--Emplacement citations-->
+	<div id="quote">
+
+		
+	</div>
+</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
