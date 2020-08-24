@@ -2,7 +2,7 @@
 
 ## A propos du projet :
 
-Petit exercice de Javascript inspiré d'un projet Openclassrooms qui porte sur l'aquisition des savoirs faire suivants en Js : 
+Petit exercice de Javascript inspiré d'un projet Openclassrooms qui porte sur l'aquisition des savoirs faire suivants en Js 
 
 * Manipulation de tableaux d'objets
 
